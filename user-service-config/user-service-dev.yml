@@ -1,0 +1,9 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:${server.port}/eureka
+spring:
+  application:
+    name: user
+  datasources:
+    driver-class-name: com.mysql.jdbc.Driver
