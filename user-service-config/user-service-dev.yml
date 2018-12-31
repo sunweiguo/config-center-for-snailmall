@@ -1,9 +1,13 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:${server.port}/eureka
+      defaultZone: http://localhost:8761/eureka
+server:
+  port: 8081
 spring:
-  application:
-    name: user
-  datasources:
-    driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: SNAILMALL-CONFIG-SERVER
+      profile: dev
