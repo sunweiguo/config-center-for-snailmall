@@ -3,4 +3,4 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 test:
-  name: hello-8
+  name: hello-9
