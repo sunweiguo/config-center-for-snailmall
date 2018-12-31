@@ -4,5 +4,10 @@ spring:
     port: 5672
     username: root
     password: root
+  datasource:
+     name: dev
+     url: jdbc:mysql://127.0.0.1:3306/snailmall
+     username: root
+     password: root
 test:
   name: test-9
