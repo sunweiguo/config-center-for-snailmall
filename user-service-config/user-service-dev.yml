@@ -1,6 +1,8 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: http://111.231.119.253:8761/eureka
 test:
   name: hello-12
+spring:
+  rabbitmq:
+    host: 111.231.119.253
+    port: 5672
+    username: root
+    password: root
