@@ -4,3 +4,5 @@ spring:
     port: 5672
     username: root
     password: root
+test:
+  name: test-1
