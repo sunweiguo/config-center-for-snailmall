@@ -5,4 +5,4 @@ spring:
     username: root
     password: root
 test:
-  name: test-4
+  name: test-5
