@@ -15,5 +15,5 @@ redis:
     max-idle: 5
     max-total: 10
     max-wait-millis: 3000
-test:
-  name: test-9
+zk:
+  host: 111.231.119.253
