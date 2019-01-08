@@ -4,9 +4,6 @@ spring:
   sleuth:
     sampler:
       probability: 1
-  zipkin:
-    sender:
-      type: web
   rabbitmq:
     host: 111.231.119.253
     port: 5672
