@@ -11,7 +11,6 @@ spring:
     password: root
   datasource:
     name: dev
-    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/snailmall
     username: root
     password: root
