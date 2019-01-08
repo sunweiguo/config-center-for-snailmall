@@ -1,4 +1,6 @@
 spring:
+  zipkin:
+    base-url: http://106.14.163.235:9411
   rabbitmq:
     host: 111.231.119.253
     port: 5672
