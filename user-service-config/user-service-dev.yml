@@ -10,10 +10,10 @@ spring:
     username: root
     password: root
   datasource:
-    name: dev
-    url: jdbc:mysql://127.0.0.1:3306/snailmall
-    username: root
-    password: root
+     name: dev
+     url: jdbc:mysql://127.0.0.1:3306/snailmall
+     username: root
+     password: root
 redis:
     host: 111.231.119.253
     port: 6379
