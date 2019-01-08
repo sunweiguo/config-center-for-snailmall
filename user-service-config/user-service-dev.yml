@@ -13,7 +13,7 @@ spring:
     name: dev
     url: jdbc:mysql://127.0.0.1:3306/snailmall
     username: root
-    password: root
+    password: Sunweiguo2018@
 redis:
     host: 111.231.119.253
     port: 6379
