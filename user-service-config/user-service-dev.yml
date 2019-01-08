@@ -1,6 +1,6 @@
 spring:
-  zipkin:
-    base-url: http://106.14.163.235:9411
+  #zipkin:
+  #  base-url: http://106.14.163.235:9411
   sleuth:
     sampler:
       probability: 1
