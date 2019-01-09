@@ -1,3 +1,7 @@
+eureka:
+  instance:
+    ip-address: 47.101.31.197
+    prefer-ip-address: true
 spring:
   zipkin:
     base-url: http://106.14.163.235:9411
