@@ -1,0 +1,28 @@
+eureka:
+  instance:
+    ip-address: 47.101.31.197
+    prefer-ip-address: true
+spring:
+  zipkin:
+    base-url: http://106.14.163.235:9411
+  sleuth:
+    sampler:
+      probability: 1
+  rabbitmq:
+    host: 111.231.119.253
+    port: 5672
+    username: root
+    password: root
+  datasource:
+     name: dev
+     url: jdbc:mysql://106.14.163.235:3306/snailmall
+     username: root
+     password: Sunweiguo2018@
+redis:
+    host: 111.231.119.253
+    port: 6379
+    max-idle: 5
+    max-total: 10
+    max-wait-millis: 3000
+zk:
+  host: 111.231.119.253
