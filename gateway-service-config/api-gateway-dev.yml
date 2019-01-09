@@ -1,6 +1,6 @@
 eureka:
   instance:
-    ip-address: 47.101.31.197
+    ip-address: 111.231.119.253
     prefer-ip-address: true
 spring:
   zipkin:
