@@ -1,6 +1,6 @@
 eureka:
   instance:
-    ip-address: 106.14.163.235
+    ip-address: 47.101.31.197
     prefer-ip-address: true
 spring:
   zipkin:
@@ -8,3 +8,10 @@ spring:
   sleuth:
     sampler:
       probability: 1
+  rabbitmq:
+    host: 111.231.119.253
+    port: 5672
+    username: root
+    password: root
+zk:
+  host: 111.231.119.253
