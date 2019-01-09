@@ -1,0 +1,10 @@
+eureka:
+  instance:
+    ip-address: 106.14.163.235
+    prefer-ip-address: true
+spring:
+  zipkin:
+    base-url: http://106.14.163.235:9411
+  sleuth:
+    sampler:
+      probability: 1
