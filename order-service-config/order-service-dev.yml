@@ -3,6 +3,10 @@ eureka:
     ip-address: 47.101.31.197
     prefer-ip-address: true
 spring:
+  redis:
+    host: 111.231.119.253
+    port: 6379
+    password: sunweiguo2018@
   zipkin:
     base-url: http://106.14.163.235:9411
   sleuth:
